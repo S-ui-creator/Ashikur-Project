@@ -1,0 +1,870 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --primaryColor: #fc0;
+    --secondaryColor: #353535;
+    --gradient: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+  }
+
+
+
+/* NAVBAR RESPONSIVE STARTS */
+@media (min-width: 992px) {
+    nav.navbar.shadow{
+        box-shadow: none !important; 
+    }
+}
+/* NAVBAR RESPONSIVE ENDS */
+
+
+
+/* BANNER RESPONSIVE STARTS */
+@media (max-width: 991px) {
+    .btn{
+        border-radius: 10px;
+        padding: 8px 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 180%;
+        border: none;
+    }
+    .btn span{
+        margin: 0;
+      }
+    .btn.btn-primary{
+        background-color: var(--primaryColor);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 180%;
+        color: #fff;
+      }
+    .btn.btn-outline{
+        border: 0.70px solid #353535;
+        padding: 8px 7px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 180%;
+        color: var(--secondaryColor);
+    }
+    #banner{
+        margin-top: 37px;
+    }
+    #banner .container .row .bannertext h4{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 15px;
+        color: #353535;
+    }
+    #banner .container .row .bannertext h1{
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 34px;
+        color: #353535;
+        margin: 8px 0 14px;
+    }
+    #banner .container .row .bannertext p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 190%;
+        color: #353535;
+        margin-bottom: 22px;
+    }
+    #banner .container .row .bannertext .btn.btn-primary{
+        border: 0.70px solid;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        margin-right: 12px;
+    }
+
+    #banner .container .row .bannertext a{
+        border: 0.70px solid #353535;
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        margin-right: 12px;
+    }
+    #banner .container .row .socialmedia{
+        margin: 40px 0;
+    }
+
+    #banner .container .row .socialmedia span{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        color: #353535;
+    }
+    #banner .container .row .socialmedia .socialcard a{
+        width: 20px;
+        height: 20px;
+        background-color: #f4f3f3;
+        text-align: center;
+        color: #000;
+        display: inline-block;
+        border-radius: 100%;
+        line-height: 20px;
+        margin: 0 6px;
+      
+      }
+      #banner .container .row .bannermouse{
+        display: none;
+      }
+        /* BANNER RESPONSIVE ENDS */
+        /* ABOUT ME STARTS */
+        #aboutme {
+            margin: 50px 0 75px;
+            height: 583px;
+        }
+        #aboutme .aboutmetext {
+            margin: 43px 0 0;
+            position: relative;
+        }
+        #aboutme .aboutmetext h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--secondaryColor);
+        }
+        #aboutme .aboutmetext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 171%;
+            color: #4d4d4d;
+            margin: 16px 0 35px;
+        }
+        #aboutme .aboutmetext a{
+            border: 1px solid #000;
+            border-radius: 15px;
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+        }
+        #aboutme .aboutmeimg img {
+            margin: auto;
+            width: 313px;
+            height: 302px;
+        }
+        #aboutme .aboutmetext::before {
+            content: "";
+            position: absolute;
+            bottom: 250px;
+            right: 25px;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background: linear-gradient(0deg, #52ab70 0%, rgba(82, 171, 112, 0.48) 100%);
+        }
+        #aboutme .aboutmetext::after {
+            content: "";
+            background-color: #fff;
+            bottom: 303px;
+            right: 25px;
+            width: 100px;
+            height: 80px;
+            position: absolute;
+        }
+        /* ABOUT ME ENDS */
+
+        /* PHA STARTS */
+        #pha .container .row{
+            margin: 75px 0 85px;
+        }
+        #pha .phacard{
+            padding: 26px 30px 40px;
+            border-radius: 12px;
+            width: 343px;
+            height: 156px;
+            margin: 7px 16px !important;
+        }
+        #pha .phacard .phaimg{
+            margin-right: 16px;
+        }
+        #pha .phacard img{
+            width: 43px;
+            height: 45px;
+            
+        }
+        #pha .phacard .phatext h4{
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+            margin: 0 0 3px;
+            text-align: left;
+        }
+        #pha .phacard .phatext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 174%;
+            color: #7a7a7a;
+            text-align: left;
+        }
+        #pha .phacard .phatext{
+            text-align: left !important;
+        }
+
+        /* PHA ENDS */
+
+        /* BRANDING STARTS */
+        #branding {
+            margin-bottom: 80px;
+        }
+        #branding .container {
+            background: var(--gradient);
+            border-radius: 20px;
+            width: 343px;
+            height: 529px;
+        }
+        #branding .row .brandimg img{
+            width: 308px;
+            height: 275px;
+            bottom: 0;
+        }
+        #branding .row .brandtext {
+            padding: 27px 30px 10px 40px;
+        }
+        #branding .row .brandtext h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--secondaryColor)
+        }
+        #branding .row .brandtext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+            margin: 17px 0 23px;
+        }
+        #branding .row .brandtext img{
+            width: 43px;
+            height: 43px;
+            top: -20px;
+            right: 50px;
+        }
+        #branding .row .brandtext a{
+            margin: 0;
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+            border: none;
+            padding: 0;
+        }
+        #branding .row .brandtext span{
+            display: inline-block;
+            align-items: center;
+        }
+        /* BRANDING ENDS */
+        /* WEBSITE DESIGN STARTS */
+        #webd{
+            margin-bottom: 64px;
+        }
+        #webd .container .row{
+            margin: 0;
+        }
+        #webd .helptext h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            color: #353535;
+        }
+        #webd .helptext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 180%;
+            color: #7a7a7a;
+            margin: 29px 0 24px;
+        }
+        #webd .helptext h2,#webd .helptext p{
+            text-align: left;
+            margin-left: 0px;
+        }
+        #webd .helptext{
+            margin-left: 20px;
+            margin-bottom: 38px;
+        }
+        #webd .helptext .helptextnum{
+            margin-left: 0;
+            justify-content: start;
+        }
+        #webd .helptext .helptextnum .helpnum {
+            margin-left: 0px;
+            margin-right: 26px;
+        }
+        #webd .helptext .helptextnum .helpnum h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            text-align: right;
+            color: #353535;
+            text-align: left;
+        }
+        #webd .helptext .helptextnum .helpnum p{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 180%;
+        color: #353535;
+
+        }
+        #webd .helptext .helptextnum .helpnum p {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 180%;
+            color: #353535;
+            margin: 0 0 3px;
+        }
+        #webd .webdcard .webdcont {
+            margin-bottom: 23px;
+            border-radius: 12px;
+            width: 343px;
+            height: 83px;
+        }
+        #webd .webdcard .webdcont .webdimg {
+            position: relative;
+            padding: 15px 17px 16px 26px;
+        }
+        #webd .webdcard .webdcont .webdtext{
+            padding: 15px 0 16px;
+        }
+        #webd .webdcard .webdcont .webdtext p{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 180%;
+            color: #353535;
+            margin: 0;
+        }
+        #webd .webdcard .webdcont .webdtext h4{
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 180%;
+            color: #353535;
+        }
+        #webd .webdcard .webdcont .webdimg span {
+            top: 28px;
+            left: 38px;
+        }
+        /* WEBSITE DESIGN ENDS */
+
+
+        /* EXPERIENCE STARTS */
+        #exp{
+            margin-bottom: 77px;
+        }
+        #exp .expheading h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+            color: #353535;
+        }
+        #exp .expheading {
+            margin-bottom: 50px;
+        }
+        #exp .expcont .explt{
+            border: none;
+            padding-bottom: 16px;
+        }
+        #exp .expcont .explt,.exprb{
+            margin-left: 22px;
+        }
+        #exp .expcont{
+            border-left: 1.50px dashed #7a7a7a;
+            margin-left: 26px;
+            position: relative;
+            padding: 0px;
+        }
+        #exp .expcont .explt::before {
+            content: "";
+            position: absolute;
+            border-radius: 100%;
+            border: 1.50px dashed #7a7a7a;
+            width: 23px;
+            height: 23px;
+            top: -10px;
+            left: -35px;
+            background: #fff;
+        }
+        #exp .expcont .explt::after {
+            content: "";
+            border-radius: 100%;
+            background: #52ab70;
+            position: absolute;
+            width: 11px;
+            height: 11px;
+            top: -4px;
+            left: -29px;
+        }
+        #exp .expcont .explt h4, #exp .expcont .exprb h4{
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 180%;
+            color: #353535;
+        }
+        #exp .expcont .exprb p,#exp .expcont .explt p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 200%;
+            color: #7a7a7a;
+        }
+        /* EXPERIENCE ENDS */
+
+
+        /* MY EXPERT AREAS STARTS */
+        #expert .experttext {
+            margin-left: 16px;
+        }
+        #expert .experttext h2 {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            color: var(--secondaryColor);
+        }
+        #expert .experttext p {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 200%;
+            color: #7a7a7a;
+            margin: 26px 0 48px;
+        }
+        #expert .experttext .btn.btn-sm {
+            display: none;
+        }
+        #expert .progresschart .btn {
+            margin-bottom: 48px;
+        }
+        #expert .progresschart .btn.active {
+            border: 1px solid #000;
+            border-radius: 15px;
+        }
+        #expert .progresschart .btn {
+            padding: 13px 50px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+        }
+        #expert .progresschart .progresstab h5 {
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 180%;
+            color: var(--secondaryColor);
+        }
+        #expert .progresschart .progresstab .progresscont {
+            border-radius: 50px;
+            width: 343px;
+            height: 4px;
+            background: #d9d9d9;
+        }
+        #expert .progresschart .progresstab .progresscont .progressnum {
+            height: 4px;
+        }
+        #expert .progresschart .progresstab .progresscont .progressnum span, #expert .progresschart .progresstab .progresscont .progressnumil span, #expert .progresschart .progresstab .progresscont .progressnumxd span, #expert .progresschart .progresstab .progresscont .progressnumph span {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            text-align: right;
+            color: black;
+        }
+        #expert .progresschart .progresstab .progresscont {
+            margin-bottom: 50px;
+        }
+        #expert .progresschart .progresstab .progresscont .progressnumph {
+            height: 4px;
+        }
+        #expert .progresschart .progresstab .progresscont .progressnumxd {
+            height: 4px;
+        }
+        #expert .progresschart .progresstab .progresscont .progressnumil {
+            height: 4px;
+        }
+
+        /* MY EXPERT AREAS ENDS */
+
+        /* MY SERVICE STARTS */
+        #myservice {
+            margin-bottom: 51px;
+        }
+        #myservice .myserviceheading {
+            padding: 34px 34px 45px;
+            margin: 0;
+        }
+        #myservice .myserviceheading h2{
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            text-align: left;
+            color: var(--secondaryColor);
+            margin-bottom: 10px;
+        }
+        #myservice .myserviceheading p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 180%;
+            color: #7a7a7a;
+            text-align: left;
+            margin: 0;
+        }
+        #myservice .servicecard {
+            margin: 0 17px;
+        }
+        #myservice .servicecard .creativecnt, #myservice .servicecard .webcnt {
+            width: 343px;
+            height: 200px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+            background: #fff;
+            position: relative;
+            margin-bottom: 15px;
+        }
+        #myservice .servicecard .creativecnt .creativecnttext, #myservice .servicecard .webcnt .webcnttext{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+
+        }
+        #myservice .servicecard .uicnt img {
+                width: 54px;
+
+        }
+        #myservice .servicecard .uicnt, .creativecnt, .webcnt {
+            margin-right: 0;
+        }
+        #myservice .servicecard .creativecnt .creativecntimg img, #myservice .servicecard .webcnt .webcntimg img{
+                width: 54px;
+        }
+        #myservice .servicecard .creativecnt .creativecntimg, #myservice .servicecard .webcnt .webcntimg{
+            position: absolute;
+            top: 23px;
+            left: 22px;
+        }
+        #myservice .servicecard .creativecnt p, #myservice .servicecard .webcnt p, #myservice .servicecard .uicnt p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 180%;
+            color: #7a7a7a;
+            text-align: left;
+        }
+        #myservice .servicecard .creativecnt h3, #myservice .servicecard .webcnt h3, #myservice .servicecard .uicnt h3 {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 180%;
+            color: #353535;
+            text-align: left;
+            margin: 0 0 9px;
+        }
+        #myservice .servicecard .uicnt {
+            border-radius: 12px;
+            width: 343px;
+            height: 200px;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+            background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+            position: relative;
+            margin-bottom: 15px;
+        }
+        #myservice .servicecard .uicnt .uicntimg{
+            position: absolute;
+            top: 23px;
+            left: 22px;
+        }
+        #myservice .servicecard .uicnt .uicnttext{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+        }
+        /* MY SERVICE ENDS */
+        /* FEEDBACK HEAD STARTS */
+        #feedbackhead .feedbackheadtext {
+            margin: 0px 0px 0 17px;
+        }
+        #feedbackhead .feedbackheadtext h1 {
+            font-family: var(--second-family);
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            color: #353535;
+        }
+        #feedbackhead .feedbackheadtext p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            color: #7a7a7a;
+            margin: 0;
+        }
+        /* FEEDBACK HEAD ENDS */
+        /* FEEDBACK BODY STARTS */
+        #feedback .feedbackimg img{
+            width: 260px;
+            height: 260px;
+        }
+        #feedback .feedbackimg {
+            margin: 70px 57px 19px 41px;
+        }
+        #feedback .feedbacktext {
+            margin: 0 0 0 17px;
+        }
+        #feedback .feedbacktext p {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 180%;
+            color: #7a7a7a;
+        }
+        #feedback .feedbacktext h3 {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 200%;
+            color: #353535;
+            margin-top: 13px;
+        }
+        /* FEEDBACK BODY ENDS */
+
+
+        /* BLOG STARTS */
+        #blog{
+            margin-bottom: 63px;
+        }
+        #blog .heading h1 {
+            text-align: left;
+            margin: 0;
+        }
+        #blog .heading{
+            margin-bottom: 42px;
+        }
+        #blog .blogshow {
+            margin: 0;
+        }
+        #blog .blogcnt .bloghidden{
+            display: none;
+        }
+        #blog .blogcnt .blogshow .blogcard{
+            margin-bottom: 27px;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardimg img{
+                width: 163px;
+                height: 153px;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardtext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 190%;
+            color: #7a7a7a;
+            margin-bottom: 0;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardtext h6{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 190%;
+            color: #353535;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardtext h4 {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 190%;
+            color: #353535;
+            margin: 6px 0 7px;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardtext a{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 190%;
+            color: #353535;
+        }
+        #blog .blogcnt .blogshow .blogcard .blogcardtext .anc iconify-icon {
+            color: #000;
+            width: 10px;
+            height: 14px;
+        }
+        /* BLOG ENDS */
+
+        /* NEWSLETTER STARTS */
+
+        #newsletter .container .row {
+            border-radius: 19px;
+            background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+            margin: 0;
+        }
+        #newsletter .container .row .newslettertext {
+            margin: 32px 20px 40px 40px;
+        }
+        #newsletter .container .row .newslettertext h3 {
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 200%;
+            color: #353535;
+        }
+        #newsletter .container .row .newslettertext p {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 200%;
+            color: #353535;
+        }
+        #newsletter .container .row .newslettercnt {
+            margin: 0;
+        }
+        #newsletter .container .row .newslettercnt form{
+            padding-bottom: 42px;
+        }
+        #newsletter .container .row .newslettercnt form input#email {
+            margin-left: 40px;
+        }
+        #newsletter .container .row .newslettercnt form input#email {
+            border-radius: 10px;
+            width: 262px;
+            height: 47px;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 200%;
+            color: #7a7a7a;
+        }
+        #newsletter .container .row .newslettercnt form input#send {
+            border-radius: 0 10px 10px 0;
+            width: 76px;
+            height: 47px;
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 200%;
+            color: #fff;
+            right: 20px;
+        }
+        #newsletter{
+            margin-bottom: 60px;
+        }
+
+        /* NEWSLETTER ENDS */
+
+        /* FOOTER STARTS */
+        #footer .container .upperf .footera .hiconth, #footer .container .lowerf .call .hicont, #footer .container .upperf .footerimg .hicono {
+            display: none;
+        }
+        #footer .container .upperf .footerimg img{
+                width: 114px;
+        }
+        #footer .container .upperf .footerimg {
+            margin: 30px 0 17px;
+        }
+        #footer .container .upperf {
+            margin: 0;
+        }
+        #footer .container .upperf .footertext h3{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 200%;
+            color: #fff;
+        }
+        #footer .container .upperf .footertext p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 180%;
+            text-align: justify;
+            color: #bbb9b9;
+        }
+        #footer .container .upperf .footera{
+            margin-bottom: 40px;
+        }
+        #footer .container .upperf .footera a{
+            font-family: var(--font-family);
+            font-weight: 600;
+            font-size: 10px;
+            line-height: 180%;
+            color: #fff;
+        }
+
+        #footer .container .upperf .footertext{
+            margin: 17px 0 31px;
+        }
+        #footer .container .lowerf .call p, #footer .container .lowerf .email p{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 180%;
+            text-align: justify;
+            color: #bbb9b9;
+        }
+        #footer .container .lowerf .call h5, #footer .container .lowerf .email h5{
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 180%;
+            color: #fff;
+        }
+        #footer .container .lowerf .follow .socialcard a{
+                width: 20px;
+                height: 20px;
+                background-color: #f4f3f3;
+                text-align: center;
+                color: #000;
+                display: inline-block;
+                border-radius: 100%;
+                line-height: 20px;
+                margin: 0 6px;
+        }
+        #footer .container .lowerf .follow span{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 180%;
+            text-align: justify;
+            color: #fff;
+        }
+        #footer .container .lowerf .follow{
+            margin-top: 34px;
+        }
+        #footer .container .lowerf {
+            margin-left: 0;
+        }
+        #footer .container .lowerf .call {
+            margin-right: 47px;
+        }
+
+        
+        /* FOOTER ENDS */
+
+
+
+        
+
+
+
+
+
+
+
+
+
+    }
